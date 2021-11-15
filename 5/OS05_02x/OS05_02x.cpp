@@ -71,7 +71,7 @@ int main(int argc, char* argv[])
 
                     unsigned long long priority;
                     sscanf_s(argv[2], "%d", &priority);
-                    CreateProccersWithPriority(L"D:\\учеба\\OSSP\\labs\\lab5\\OSSP_lr5\\Debug\\Process1.exe", si, priority);
+                    CreateProccersWithPriority(L"D:\\vm\\lab5\\OSSP_lr5\\Debug\\Process1.exe", si, priority);
 
 
                     if (argv[3] != NULL)
@@ -79,7 +79,7 @@ int main(int argc, char* argv[])
                         sscanf_s(argv[3], "%d", &priority);
                         ZeroMemory(&si, sizeof(STARTUPINFO));
                         si.cb = sizeof(STARTUPINFO);
-                        CreateProccersWithPriority(L"D:\\учеба\\OSSP\\labs\\lab5\\OSSP_lr5\\Debug\\Process2.exe", si, priority);
+                        CreateProccersWithPriority(L"D:\\vm\\lab5\\OSSP_lr5\\Debug\\Process2.exe", si, priority);
                     }
 
                 }

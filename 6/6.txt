@@ -1,0 +1,11 @@
+1
+wmic ->
+memorychip get banklabel, capacity, speed, manufacturer, partnumber, purpose
+memcache get purpose, maxcachesize
+2
+Get-WmiObject -Class "Win32_PhysicalMemory"
+3
+systeminfo | findstr "память"
+
+4
+

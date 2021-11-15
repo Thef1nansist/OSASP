@@ -1,0 +1,19 @@
+﻿Сборка начата 08.11.2021 20:54:11.
+Уровень детализации журнала: Normal.     1>Проект "D:\5sem\OSASP\Labs\6\os06_02\os06_02.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\os06_02.tlog\unsuccessfulbuild".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(1170,9): error MSB4030: "т" — недопустимое значение для параметра "TurnOffAssemblyGeneration" задачи "Link". Параметр "TurnOffAssemblyGeneration" относится к типу "System.Boolean".
+     1>Сборка проекта "D:\5sem\OSASP\Labs\6\os06_02\os06_02.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+       "D:\5sem\OSASP\Labs\6\os06_02\os06_02.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект Link) -> 
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(1170,9): error MSB4030: "т" — недопустимое значение для параметра "TurnOffAssemblyGeneration" задачи "Link". Параметр "TurnOffAssemblyGeneration" относится к типу "System.Boolean".
+
+    Предупреждений: 0
+    Ошибок: 1
+
+Прошло времени 00:00:00.07

@@ -1,0 +1,32 @@
+﻿Сборка начата 12.10.2021 8:01:11.
+Уровень детализации журнала: Normal.     1>Проект "D:\5sem\OSASP\Labs\5\os05_03\os05_03.vcxproj" в узле 2 (целевые объекты Build).
+     1>PrepareForBuild:
+         Создание каталога "Debug\os05_03.tlog\".
+       InitializeBuildStatus:
+         Создание "Debug\os05_03.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:env:EXTERNAL_INCLUDE /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt os05_03.cpp
+         os05_03.cpp
+     1>D:\5sem\OSASP\Labs\5\os05_03\os05_03.cpp(91,35): warning C4477: "sscanf_s": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "unsigned __int64 *"
+       D:\5sem\OSASP\Labs\5\os05_03\os05_03.cpp(91,35): message : рекомендуется использовать "%lld" в строке форматирования
+       D:\5sem\OSASP\Labs\5\os05_03\os05_03.cpp(91,35): message : рекомендуется использовать "%I64d" в строке форматирования
+     1>D:\5sem\OSASP\Labs\5\os05_03\os05_03.cpp(92,49): warning C4244: аргумент: преобразование "unsigned __int64" в "DWORD_PTR", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\5sem\OSASP\Labs\5\ConsoleApplication1\Debug\os05_03.exe" /INCREMENTAL /ILK:"Debug\os05_03.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\5sem\OSASP\Labs\5\ConsoleApplication1\Debug\os05_03.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\5sem\OSASP\Labs\5\ConsoleApplication1\Debug\os05_03.lib" /MACHINE:X86 Debug\os05_03.obj
+         os05_03.vcxproj -> D:\5sem\OSASP\Labs\5\ConsoleApplication1\Debug\os05_03.exe
+       FinalizeBuildStatus:
+         Файл "Debug\os05_03.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\os05_03.tlog\os05_03.lastbuildstate".
+     1>Сборка проекта "D:\5sem\OSASP\Labs\5\os05_03\os05_03.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+       "D:\5sem\OSASP\Labs\5\os05_03\os05_03.vcxproj" (целевой объект Build ) (1) ->
+       (Целевой объект ClCompile) -> 
+         D:\5sem\OSASP\Labs\5\os05_03\os05_03.cpp(91,35): warning C4477: "sscanf_s": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "unsigned __int64 *"
+         D:\5sem\OSASP\Labs\5\os05_03\os05_03.cpp(92,49): warning C4244: аргумент: преобразование "unsigned __int64" в "DWORD_PTR", возможна потеря данных
+
+    Предупреждений: 2
+    Ошибок: 0
+
+Прошло времени 00:00:02.86

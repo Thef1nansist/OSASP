@@ -1,0 +1,20 @@
+﻿Сборка начата 08.11.2021 20:57:05.
+Уровень детализации журнала: Normal.     1>Проект "D:\5sem\OSASP\Labs\6\os06_2\os06_2.vcxproj" в узле 2 (целевые объекты Build).
+     1>InitializeBuildStatus:
+         Создание "Debug\os06_2.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\5sem\OSASP\Labs\6\os06_02\Debug\os06_2.exe" /INCREMENTAL /ILK:"Debug\os06_2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\5sem\OSASP\Labs\6\os06_02\Debug\os06_2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /FIXED /NXCOMPAT /IMPLIB:"D:\5sem\OSASP\Labs\6\os06_02\Debug\os06_2.lib" /MACHINE:X86 Debug\os06_2.obj
+         os06_2.vcxproj -> D:\5sem\OSASP\Labs\6\os06_02\Debug\os06_2.exe
+       FinalizeBuildStatus:
+         Файл "Debug\os06_2.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\os06_2.tlog\os06_2.lastbuildstate".
+     1>Сборка проекта "D:\5sem\OSASP\Labs\6\os06_2\os06_2.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+    Предупреждений: 0
+    Ошибок: 0
+
+Прошло времени 00:00:01.86

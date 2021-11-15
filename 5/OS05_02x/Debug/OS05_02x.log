@@ -1,4 +1,4 @@
-﻿Сборка начата 11.10.2021 23:37:35.
+﻿Сборка начата 12.10.2021 8:00:53.
 Уровень детализации журнала: Normal.     1>Проект "D:\5sem\OSASP\Labs\5\OS05_02x\OS05_02x.vcxproj" в узле 2 (целевые объекты Build).
      1>InitializeBuildStatus:
          Создание "Debug\OS05_02x.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
@@ -12,11 +12,11 @@
      1>D:\5sem\OSASP\Labs\5\OS05_02x\OS05_02x.cpp(73,39): warning C4477: "sscanf_s": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "unsigned __int64 *"
        D:\5sem\OSASP\Labs\5\OS05_02x\OS05_02x.cpp(73,39): message : рекомендуется использовать "%lld" в строке форматирования
        D:\5sem\OSASP\Labs\5\OS05_02x\OS05_02x.cpp(73,39): message : рекомендуется использовать "%I64d" в строке форматирования
-     1>D:\5sem\OSASP\Labs\5\OS05_02x\OS05_02x.cpp(74,120): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+     1>D:\5sem\OSASP\Labs\5\OS05_02x\OS05_02x.cpp(74,100): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
      1>D:\5sem\OSASP\Labs\5\OS05_02x\OS05_02x.cpp(79,43): warning C4477: "sscanf_s": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "unsigned __int64 *"
        D:\5sem\OSASP\Labs\5\OS05_02x\OS05_02x.cpp(79,43): message : рекомендуется использовать "%lld" в строке форматирования
        D:\5sem\OSASP\Labs\5\OS05_02x\OS05_02x.cpp(79,43): message : рекомендуется использовать "%I64d" в строке форматирования
-     1>D:\5sem\OSASP\Labs\5\OS05_02x\OS05_02x.cpp(82,124): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+     1>D:\5sem\OSASP\Labs\5\OS05_02x\OS05_02x.cpp(82,104): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"D:\5sem\OSASP\Labs\5\ConsoleApplication1\Debug\OS05_02x.exe" /INCREMENTAL /ILK:"Debug\OS05_02x.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\5sem\OSASP\Labs\5\ConsoleApplication1\Debug\OS05_02x.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\5sem\OSASP\Labs\5\ConsoleApplication1\Debug\OS05_02x.lib" /MACHINE:X86 Debug\OS05_02x.obj
          OS05_02x.vcxproj -> D:\5sem\OSASP\Labs\5\ConsoleApplication1\Debug\OS05_02x.exe
@@ -32,11 +32,11 @@
          D:\5sem\OSASP\Labs\5\OS05_02x\OS05_02x.cpp(58,35): warning C4477: "sscanf_s": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "unsigned __int64 *"
          D:\5sem\OSASP\Labs\5\OS05_02x\OS05_02x.cpp(59,49): warning C4244: аргумент: преобразование "unsigned __int64" в "DWORD_PTR", возможна потеря данных
          D:\5sem\OSASP\Labs\5\OS05_02x\OS05_02x.cpp(73,39): warning C4477: "sscanf_s": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "unsigned __int64 *"
-         D:\5sem\OSASP\Labs\5\OS05_02x\OS05_02x.cpp(74,120): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+         D:\5sem\OSASP\Labs\5\OS05_02x\OS05_02x.cpp(74,100): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
          D:\5sem\OSASP\Labs\5\OS05_02x\OS05_02x.cpp(79,43): warning C4477: "sscanf_s": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "unsigned __int64 *"
-         D:\5sem\OSASP\Labs\5\OS05_02x\OS05_02x.cpp(82,124): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
+         D:\5sem\OSASP\Labs\5\OS05_02x\OS05_02x.cpp(82,104): warning C4244: аргумент: преобразование "unsigned __int64" в "int", возможна потеря данных
 
     Предупреждений: 6
     Ошибок: 0
 
-Прошло времени 00:00:06.25
+Прошло времени 00:00:03.54
