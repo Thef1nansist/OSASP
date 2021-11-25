@@ -1,0 +1,25 @@
+\\wsl$\Ubuntu-18.04\home\dima\lr9
+ubuntu1804.exe
+sudo apt update
+
+5
+cd /home/dima/lr9
+gcc -std=gnu99 09_05.c -o OS09_05b -lpthread
+./OS09_05b
+
+6
+cd /home/dima/lr9
+gcc -std=gnu99 09_06.c -o OS09_6b -lpthread
+./OS09_06b 3 ( чет или нечет)
+
+5
+cd /home/dima/lr5
+gcc -std=gnu99 09_07.c -o OS09_07b -lpthread
+./OS09_07b
+
+long lseek(int handle, long offset, int origin)
+handle - дескриптор
+offset - смещение
+origin - положение в файле ( 1 - нач, 2 - тек поз, 3 - конец)
+
+
